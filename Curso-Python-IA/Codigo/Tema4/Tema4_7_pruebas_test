@@ -1,0 +1,10 @@
+
+def calculo(numero_1, numero_2 =3):
+
+    return numero_1 / numero_2
+
+calculo(10)
+
+
+funcion =lambda x: str(x)
+print(list(map(funcion, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])))
